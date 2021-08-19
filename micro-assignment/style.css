@@ -8,7 +8,7 @@
 	--shadow: rgba(10, 22, 50, .24);
 	display: flex;
 	overflow: hidden;
-	text-decoration: underline;
+	text-decoration: none;
 	-webkit-mask-image: -webkit-radial-gradient(white, black);
 	background: var(--background);
 	box-shadow: 0 2px 8px -1px var(--shadow);
@@ -21,12 +21,12 @@
   .button ul {
 	margin: 0;
 	padding: 16px 40px;
-	list-style: disc;
+	list-style: none;
 	text-align: center;
 	position: relative;
 	-webkit-backface-visibility: hidden;
 			backface-visibility: hidden;
-	font-size: 9px;
+	font-size: 18px;
 	font-weight: 500;
 	line-height: 28px;
 	color: var(--text);
@@ -279,6 +279,7 @@
   }
   body .container .button {
 	margin: 16px;
+	  border-radius: 8px;
   }
   @media (max-width: 400px) {
 	body .container .button {
